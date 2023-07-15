@@ -1,0 +1,73 @@
+body{
+   font-size: 16px;
+   font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+.container{
+   background-color: aqua;
+   width: 300px;
+   margin: 0 auto;
+   padding: 10px;
+}
+.circum{
+   text-align: center;
+   text-decoration: underline;
+   font-size: 1.2rem;
+   font-weight: bold;
+}
+#radius-label{
+  margin-bottom:  5px;
+   display: block;
+}
+#radius{
+   display: block;
+   width: 100px;
+   height: 25px;
+   font-size: 1.4rem;
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+#submit{
+display: inline-block;
+margin-bottom: 10px;
+width: 70%;
+padding: 5px;
+font-weight: bold;
+font-size: 1rem;
+
+color: white;
+background-color: rgb(255, 0, 13);
+border: none;
+border-radius: 5px;
+}
+#submit:hover{
+   cursor: pointer;
+   background-color: aqua;
+   border: 1px solid black;
+   color: black;
+}
+#reset{
+   display: inline-block;
+margin-bottom: 10px;
+width: 28%;
+padding: 5px;
+font-weight: bold;
+font-size: 1rem;
+
+color: white;
+background-color: rgb(255, 0, 13);
+border: none;
+border-radius: 5px;
+}
+#reset:hover{
+   cursor: pointer;
+   background-color: aqua;
+   border: 1px solid black;
+   color: black;
+}
+#answer{
+   display: block;
+   margin-bottom: 10px;
+   font-size: 1.1rem;
+   font-weight: bold;
+
+}
